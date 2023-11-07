@@ -1,0 +1,152 @@
+body {
+/*  margin: 5vw 10vw 0px 10vw;*/
+  margin: 0px;
+  padding: 0px;
+
+
+/*NO EXCESS SCROLLING VERTICALL*/
+  overflow: hidden;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.myImg{
+
+  width: 100%;
+  height: auto;
+
+
+}
+
+
+
+
+/*input box*/
+input{
+  font-size: 2rem;
+  margin-left: 300px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 25px;
+   margin-left: 30px;
+
+
+    font-family: futura;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color: mintcream;
+    appearance: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+
+  /* border-radius: 15px;
+   font-family: futura;
+   background-color: mintcream;
+   border-style: solid;
+   border-color: black;
+   transition: background-color 0.3s, transform 0.3s;
+   cursor: pointer;*/
+
+}
+
+button:hover{
+  background-color: none;
+  border-color: orange;
+  color: orange;
+}
+
+
+/*CUSTOMIZE PLACEHOLDER TEXT*/
+::placeholder {
+  font-size: 25px;
+  font-family: futura;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: white;
+
+  margin-top: -2px;
+}
+
+
+#title {
+  /* text-shadow: 0px 0px 13px #fff; */
+  transition: all 2s;
+  margin-top: -700px;
+  margin-left: 300px;
+  font-size: 60px;
+  font-family: futura;
+
+  
+}
+
+/*display none for now*/
+#name{
+
+  margin-left: 300px;
+  font-size: 25px;
+  font-family: futura;
+
+
+  display: none;
+
+}
+
+
+.outputContainer{
+  display: flex;
+}
+
+#firstN{
+  flex-direction: row;
+  margin-left: 250px;
+  font-size: 60px;
+  font-family: futura;
+  margin-top: 130px;
+
+}
+
+#lastN{
+  flex-direction: row;
+  margin-left: 650px;
+  font-size: 60px;
+  font-family: futura;
+  margin-top: -110px;
+
+
+
+}
+
+#myInput{
+  font-size: 25px;
+  font-family: futura;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  color: white;
+
+}
+
+
+.specialTitle {
+  text-decoration: underline;
+  color: #000;
+  text-shadow: 0px 0px 13px #ff0072;
+}
+
+#outputImg{
+  margin-top: 190px;
+  margin-left: 300px;
+
+  width: 50%;
+  
+}
